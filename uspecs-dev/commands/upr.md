@@ -4,7 +4,7 @@ Create pull request from current branch
 
 Parse user input as `[options]`.
 
-run `softeng.sh action upr [options]` and follow the instructions in the output.
+Set cwd to the uspecs-using project root and run `softeng.sh action upr [options]` and follow the instructions in the output.
 
 Options: `--no-archive`
 

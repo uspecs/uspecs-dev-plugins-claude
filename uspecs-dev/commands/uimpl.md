@@ -4,7 +4,7 @@ Implementation plan management
 
 Parse user input as `[options]`.
 
-run `softeng.sh action uimpl [options]` and follow the instructions in the output.
+Set cwd to the uspecs-using project root and run `softeng.sh action uimpl [options]` and follow the instructions in the output.
 
 Options: `--change-folder <path>`, `--plan`, `--no-self-review`
 
