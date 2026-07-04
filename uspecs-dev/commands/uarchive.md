@@ -4,7 +4,7 @@ Archive change request
 
 Parse user input as `[options]`.
 
-run `bash softeng.sh action uarchive [options]` and follow the instructions in the output.
+run `softeng.sh action uarchive [options]` and follow the instructions in the output.
 
 Possible options: `--change-folder <path>`, `--all`
 

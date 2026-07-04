@@ -24,7 +24,7 @@ Parse user input as `[options] {description}`:
 - If {description} contains a URL, add `--issue-url {URL}` option
   - If you can fetch the issue body from that URL (using your skills, MCP integrations, etc.), also add `--fetchable`.
 - If the user asks to derive specifications from the codebase, add `--specs` option
-- run `bash softeng.sh action uchange [options]` and follow the instructions in the output how to process {description}.
+- run `softeng.sh action uchange [options]` and follow the instructions in the output how to process {description}.
 - Do not pass {description} verbatim to the command
 
 Possible options: `--kebab-name <name>` (required), `--type <type>` (required), `--branch`, `--no-branch`, `--issue-url <url>`, `--fetchable`, `--specs`
